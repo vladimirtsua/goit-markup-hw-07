@@ -416,39 +416,39 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modalbut" data-modal-close>
-          <svg class="modalbut-icon" width="11px" height="11px">
+        <button class="modal__button" data-modal-close>
+          <svg class="modal__button__icon" width="11px" height="11px">
             <use href="./img/symbol-defs.svg#icon-x"></use>
           </svg>
         </button>
 
         <form class="form">
-          <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
-          <div class="form-group">
+          <h2 class="form__title">Оставьте свои данные, мы вам перезвоним</h2>
+          <div class="form__container">
             <label for="name">Имя</label>
-            <input type="text" name="name" id="name" class="form-input" />
-            <svg class="modal-icon" width="12px" height="12px">
+            <input type="text" name="name" id="name" class="form__input" />
+            <svg class="modal__icon" width="12px" height="12px">
               <use href="./img/symbol-defs.svg#icon-name"></use>
             </svg>
           </div>
 
-          <div class="form-group">
+          <div class="form__container">
             <label for="tel">Телефон</label>
-            <input type="tel" name="tel" id="tel" class="form-input" />
-            <svg class="modal-icon" width="13px" height="13px">
+            <input type="tel" name="tel" id="tel" class="form__input" />
+            <svg class="modal__icon" width="13px" height="13px">
               <use href="./img/symbol-defs.svg#icon-call"></use>
             </svg>
           </div>
 
-          <div class="form-group">
+          <div class="form__container">
             <label for="email">Почта</label>
-            <input type="email" name="email" id="email" class="form-input" />
-            <svg class="modal-icon" width="15px" height="12px">
+            <input type="email" name="email" id="email" class="form__input" />
+            <svg class="modal__icon" width="15px" height="12px">
               <use href="./img/symbol-defs.svg#icon-mailto"></use>
             </svg>
           </div>
 
-          <div class="form-group comment">
+          <div class="form__container comment">
             <label for="comment">Комментарий</label>
             <textarea
               name="comment"
@@ -457,7 +457,7 @@
             ></textarea>
           </div>
 
-          <div class="form-policy">
+          <div class="form__policy">
             <input type="checkbox" name="policy" id="policy" class="checkbox" />
 
             <label for="policy"
@@ -466,8 +466,10 @@
             >
           </div>
 
-          <div class="buttonform">
-            <button type="submit" class="formbutt">Отправить</button>
+          <div class="form__button">
+            <button type="submit" class="form__button__submit">
+              Отправить
+            </button>
           </div>
         </form>
       </div>
